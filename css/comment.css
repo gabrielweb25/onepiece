@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*Footer Style */
+footer { 
+width: 100%;
+}
+footer h2 {}
+
+
+.footerL {
+	float: left; 
+	padding: 0;
+	border-right: 1px solid #fff;
+}
+.footerR { 
+float: right;
+text-align: right;
+padding: 0;
+ }
+
+/*Navbar Styles*/
+nav.navbar {
+	padding: 20px; /* Creates space inside the navbar*/
+	background-color: #BB6B35 !important; /*this is background colure for the navbar */
+}
+
+nav.navbar.navbar-nav{ /*this nav box contents all the links  */
+	padding-top: 5px;
+	padding-left: 20px;
+	
+}
+nav.navbar.navbar-nav a.nav-link{ /*this tiggeret the links   */
+	padding: 8px 20px; /*Sets the space around the links */
+	color: #fff; /*change the color of the links */
+	text-align: left;
+	font-size: 1rem;/* changes the font of the links*/
+	
+}
+
+nav.navbar.navbar-nav a.nav-link:hover {/* this creaths a color for the links when you hover over */
+	color: #32630A;
+}
+nav.navbar.navbar-nav .active a.nav-link{ /*this shows you which page you are in  */
+	font-weight: bold;
+	color: #8E0A0C;
+	background: transparent;
+	border-bottom: 4px solid #C1781A;
+	
+}
+nav.navbar a.navbar-brand {/*this Targrt the colour for the logo */
+	color: white;
+	
+}
+	
+/* this is comment */
+#frmComment input:hover #frmComment textarea:hover{box-showdow:5px 8px #c1c1c1;
+}
+#frmCommet textarea{
+	float: left;
+	width: 51%;
+	margin: 8px 0 0 20px;
+	border: solid 1px #999;
+	box-shadow: 2px 8px 8px #e3e3e3;
+	padding: 10px 0 0 5px;
+}
+
+select{
+	width:52%;
+	padding: 12px 10px 10px;
+	margin: 10px 0 0 20px;
+	border: 1px solid #999;
+	color: #999;
+	font-size: 16px;
+}
+#frmComment input [type=submit]{
+	padding: 12px 2px;
+	text-align: center;
+	width: 140px;
+	float: left;
+	color: #FFF;
+	background: #0088cc;
+	border: 1px solid #0088cc;
+	margin: 0px 0 0 32%;
+	border-radius: 7px;
+	cursor: pointer;
+	height: 45px;
+}
+
+#frmComment input[type=submit]:hover{
+	background:#18B1FB;
+}
+
