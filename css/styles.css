@@ -86,7 +86,7 @@ front-size: 18px;
 }
 #frmComment label{
 	float: left;
-	width: 100%
+	width: 100%;
 	display: block;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -96,7 +96,7 @@ front-size: 18px;
 	float: left;
 	width: 30%;
 	text-align: right;
-	margin-top: `0PX;
+	margin-top: 0PX;
 	padding-top: 10PX;
 }
 #frmComment label:hover span{
