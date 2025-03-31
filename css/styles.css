@@ -91,7 +91,7 @@ front-size: 18px;
 	margin-top: `0PX;
 	padding-top: 10PX;
 }
-#frmComment label:hover spam{
+#frmComment label:hover span{
 	color: #777;
 }
 #frmComment input {
