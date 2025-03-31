@@ -43,7 +43,8 @@ img.right{
 
 .footerR p.opi { 
 	background: url("../images/onepiece.png") no-repeat right;
-	padding-right:35px
+	padding-right:35px;
+	font-size: 50px;
 }
 
 .bold {
