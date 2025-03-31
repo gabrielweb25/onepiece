@@ -82,7 +82,7 @@ front-size: 18px;
 #frmComment {
 	width: 90%;
 	margin: 30px auto;
-	front-size: 18px;
+	font-size: 18px;
 }
 #frmComment label{
 	float: left;
@@ -90,6 +90,7 @@ front-size: 18px;
 	display: block;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+	background: red;
 }
 
 #frmComment label span {
