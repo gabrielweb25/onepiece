@@ -40,6 +40,12 @@ img.right{
 	margin: 0 0 0 1rem;
 	
 }
+
+.footerR p.opi { 
+	background: url("../images/onepiece.png") no-repeat right;
+	padding-right:35px
+}
+
 .bold {
   font-weight: bold;
 }
