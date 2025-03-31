@@ -65,6 +65,88 @@ a:hover {
 
 
 
+/*form Style */
+::placeholder {
+	font-samily: "Josefin Sans", sans-serif;
+front-size: 18px;
+}
+
+#frmComment {
+	width: 90%;
+	margin: 30px auto;
+	front-size: 18px;
+}
+#frmComment label{
+	float: left;
+	width: 100%
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#frmComment label span {
+	float: left;
+	width: 30%;
+	text-align: right;
+	margin-top: `0PX;
+	padding-top: 10PX;
+}
+#frmComment label:hover spam{
+	color: #777;
+}
+#frmComment input {
+	float: left;
+	width: 50%
+		border: 1px solid #999;
+	box-shadow: 0px 5px 5px #e3e3e3;
+	margin: 10px 0 0 20px;
+	padding: 20px 10px;
+	height: 18px;
+}
+#frmComment input:hover,#frmComment textarea:hover{
+	box-shadow:5px 5px 8px #c1c1c1;
+}
+
+#frmComment textarea { 
+	float:left;
+	width:51%;
+	margin:8px 0 0 20px;
+	border: solid 1px #999;
+	border-shadow:2px 8px 8px #e3e3e3;
+	padding:10px 0 0 5px;
+}
+select{
+	font-family: "Josefin Sans", sans-serif;
+	width:52%;
+	padding:12px 10px 10px 10px;
+	margin:18px 0 0 20px;
+	border:1px soild #999;
+	color:#999;
+	font-size: 16px;
+}
+#frmComment input[type=submit]{
+	padding:12px 2px;
+	text-align: center;
+	width: 140px;
+	float: left;
+	color: #FFF;
+	background:0088CC;
+	margin: 0 0 0 32%;
+	border-radius:7px;
+	cursor: pointer;
+	hight:45;
+}
+#frmComment input [type=submit]:hover {
+	background: #18B1FB;
+}
+	
+	
+	
+	
+	
+
+
+
 /*Footer Style */
 footer {
   width: 100%;
