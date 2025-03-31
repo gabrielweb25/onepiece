@@ -30,6 +30,13 @@ p {
   margin: 0 0 0.5rem 0; /* Using bottom-margin to create space at the bottom of each paragrap */
 	
 }
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
 /* 	IMAGE Styles */
 img {
 	float: left; /*cretes space after image before text to improve appearance */
@@ -44,15 +51,9 @@ img.right{
 .footerR p.opi { 
 	background: url("../images/onepiece.png") no-repeat right;
 	padding-right:35px;
-	font-size: 50px;
 }
 
-.bold {
-  font-weight: bold;
-}
-.italic {
-  font-style: italic;
-}
+
 
 #carouselExampleIndicators1 img, section img, video{
 	width: 100%;
